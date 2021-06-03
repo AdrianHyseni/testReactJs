@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+/*************Header***************/
+
+
+.header-wraper{
+    position: relative;
+    background: url(images/bcg1.jpg) no-repeat;
+    background-size: cover;
+    background-position:center;
+    height: 90vh;
+  }
+  
+  .main-info {
+    position: absolute;
+    top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    z-index: 1;
+  
+  }
+  
+  .main-info  {
+    color: #FAD02C ;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+  
+  }
+  
+  
+  /*Typed Text*/
+  
+  .typed-text {
+    font-size: 4rem;
+  }
+  
+  
+  /*Button*/
+  
+  
+  .btn-main-offer {
+    border:1px solid var(--primary-red);
+    text-transform: uppercase;
+    border-radius: 0;
+    padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+    color: var(--primary-white);
+    margin-top: 2rem;
+    text-decoration: none;
+  }
+  
+  
+  /*Particles*/
+  
+  .tsparticles-canvas-el {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    z-index: 1;
+  }
+  
+  
+  @media(max-width: 768px){
+    .particles-canvas {
+      display: none;
+    }
+  
+    .typed-text {
+      font-size: 2rem !important;
+    }
+  
+  }
+  
